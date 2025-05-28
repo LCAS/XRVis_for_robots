@@ -87,5 +87,9 @@ Version: ROS Noetic
 4. Confirm the visual axes align with the robot’s position.
 ![image](https://github.com/user-attachments/assets/0f705d6a-7f13-4b5d-b9ad-7c164dac0f62)
 
+---
+
+This work was supported by the Engineering and Physical Sciences Research Council
+and AgriFoRwArdS CDT [EP/S023917/1].
 
 ---
