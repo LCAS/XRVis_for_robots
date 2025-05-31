@@ -26,27 +26,25 @@ Unity version: `2022.3.41`
 
 ### Required Packages
 
-* `ROS-TCP-Connector (v0.7.0-preview)`
-* `AR Foundation`
-* `OpenXR Plugin`
+* [ROS-TCP-Connector(v0.7.0-preview)](https://github.com/Unity-Technologies/ROS-TCP-Connector/) - Facilitates TCP communication between a Unity application and ROS.
+* AR Foundation - Provides a multi-platform API for developing augmented reality applications in Unity.
+* OpenXR Plugin - Enables Unity to support a wide range of XR devices using the OpenXR standard.
 
-Add ROS-TCP-Connector via:
-
-```
-https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector
-```
+To add the `ROS-TCP-Connector` following the instructions on the [ROS-TCP-Connector](https://github.com/Unity-Technologies/ROS-TCP-Connector/) repository.
 
 ### Custom Scripts
 
-Attached to the `XR Origin` in Unity:
+Some relevant [scripts](https://github.com/LCAS/XRVis_for_robots/tree/main/UnityXRTiago/Assets/Scripts) are attached to the `XR Origin` in Unity in order to subscribe to, and publish, relevant pose information for the visualisations:
 * `RobotPoseSubscriber.cs`: Subscribes to `/amcl_pose` and updates the robot’s visual position in Unity.
 * `PlayerPositionPublisher.cs`: Publishes headset position to `/unity_user_pose`.
 * `GoalPlannerSubscriber.cs`: Subscribes to `/move_base/GlobalPlanner/plan` and visualizes the planned trajectory.
 * `DebugPanel.cs`: Displays status and pose information in the headset.
-* 
+
+These scricts are attacted to the `XR Origin` object as follows:
+
 ![image](https://github.com/user-attachments/assets/7cef7d5e-118e-4580-ac54-a3e6c214d538)
 
-Additionally a custom "Speckle" game object was used to act at the visualiser for the path. 
+Additionally a custom "Speckle" game object was used to act at the visualiser for the path. These "speckles" make up the green line in the first image shown above.
 
 ![image](https://github.com/user-attachments/assets/a01cc7dd-5dec-48d4-9aae-025a69b71410)
 
@@ -56,9 +54,9 @@ Version: ROS Noetic
 
 ### Required Packages
 
-* `ros_tcp_endpoint` (https://github.com/Unity-Technologies/ROS-TCP-Endpoint)
-* `move_base`
-* `amcl`
+* [ros_tcp_endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) - Sets up the node to establish a TCP connection with the XR headset
+* [move_base](https://github.com/strawlab/navigation/tree/master/move_base) - Autonomously navigation package go to the desired goal.
+* [amcl](https://github.com/strawlab/navigation/tree/master/amcl) - Localisation package for 2D mobile robots.
 
 ### ROS Topics
 
@@ -77,7 +75,6 @@ Version: ROS Noetic
    ```
 4. In Unity, go to `Robotics -> ROS Settings` and set the IP and port.
 ![image](https://github.com/user-attachments/assets/16e0d892-fa84-499f-9756-02956f4a62fe)
-
 
 ## Calibration
 
