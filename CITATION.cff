@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ali"
+  given-names: "Omar"
+  orcid: "https://orcid.org/0009-0009-3523-6084"
+title: "XRVis_for_robots"
+version: 1.0.0
+doi: 10.5281/zenodo.15565848
+date-released: 2025-05-31
+url: "https://github.com/LCAS/XRVis_for_robots"
