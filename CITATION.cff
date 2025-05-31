@@ -1,11 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-- family-names: "Ali"
-  given-names: "Omar"
-  orcid: "https://orcid.org/0009-0009-3523-6084"
+message: "If you use this software or the findings from our research, please cite the relevant entry (or both) as listed below."
 title: "XRVis_for_robots"
-version: 1.0.0
-doi: 10.5281/zenodo.15565848
+authors:
+  - family-names: "Ali"
+    given-names: "Omar"
+    orcid: "https://orcid.org/0009-0009-3523-6084"
+version: "1.0.0"
 date-released: 2025-05-31
+doi: "10.5281/zenodo.15565848"
 url: "https://github.com/LCAS/XRVis_for_robots"
+abstract: "A Unity project providing XR visualizations for TIAGo robot's planned path and movements within a shared spatial environment to enhance transparency in Human-Robot Interaction."
+keywords:
+  - "robotics"
+  - "human-robot interaction"
+  - "mixed reality"
+  - "augmented reality"
+  - "virtual reality"
+  - "unity"
+  - "ros"
+  - "tiago robot"
