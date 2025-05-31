@@ -1,6 +1,20 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15565848.svg)](https://doi.org/10.5281/zenodo.15565848) [![Cite this repository](https://img.shields.io/badge/Cite-GitHub-blue?logo=github)](https://github.com/LCAS/XRVis_for_robots/blob/main/CITATION.cff)
+
+
+
 # Mixed Reality Visualisations for Interpretable Transparent Robot Behaviour
 
 This repository contains code and data used in preparation of the "Mixed Reality Visualisations for Interpretable Transparent Robot Behaviour" by Omar Ali published to the 26th Annual TAROS CONFERENCE in 2025. 
+
+```bibtex
+@inproceedings{Ali2025MixedReality,
+  author    = {Ali, Omar and Baxter, Paul and Harman, Helen},
+  title     = {Mixed Reality Visualisations for Interpretable Transparent Robot Behaviour},
+  booktitle = {Proceedings of the 26th Annual Conference, Towards Autonomous Robotic Systems (TAROS 2025)},
+  year      = {2025},
+  note      = {Forthcoming},
+}
+```
 ___
 
 The project enables real-time Mixed Reality/Extended Reality visualidation of robot behaviour to support Human-Robot Interaction (HRI). A Meta Quest 3 XR headset is used to visualise the TIAGo robot's pose and planned trajectory in the user's environment using Unity and ROS integration.
@@ -89,21 +103,6 @@ Version: ROS Noetic
 3. Press the Quest "Home" button to reset the headset origin.
 4. Confirm the visual axes align with the robot’s position.
 ![image](https://github.com/user-attachments/assets/0f705d6a-7f13-4b5d-b9ad-7c164dac0f62)
-
-
----
-
-**If you use this repository for your research, please cite the following (forthcoming) publication:**
-
-```bibtex
-@inproceedings{Ali2025MixedReality,
-  author    = {Ali, Omar and Baxter, Paul and Harman, Helen},
-  title     = {Mixed Reality Visualisations for Interpretable Transparent Robot Behaviour},
-  booktitle = {Proceedings of the 26th Annual Conference, Towards Autonomous Robotic Systems (TAROS 2025)},
-  year      = {2025},
-  note      = {Forthcoming},
-}
-```
 
 ---
 
